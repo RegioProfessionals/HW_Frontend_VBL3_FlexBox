@@ -1,6 +1,29 @@
-* {
-    box-sizing: border-box;
+
+/*Schrijf hier jouw eigen CSS*/
+* {;
     margin: 0;
     padding: 0;
     outline: 0;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
